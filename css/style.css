@@ -89,5 +89,75 @@ nav{
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-  height: 500px;
+  /* height: 500px; */
+  padding: 50px 0;
+}
+
+.hero-text{
+  padding-right: 50px;
+  /* width: 100%; */
+}
+
+.hero-text h1{
+  font-size: 4.5rem;
+}
+
+.hero-text p{
+  color:lightgrey;
+  font-size: 2rem;
+}
+
+/* form */
+.hero-form{
+  color:#031B5E;
+  background-color: #fff;
+  margin-top:30px;
+  border-radius:5px;
+  padding-top: 20px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.hero-form h3{
+  /* line-height: 15px; */
+}
+
+.hero-form h3:nth-child(2){
+  color:#3285FF;
+  margin-bottom:20px;
+}
+
+.hero-form input, .hero-form button{
+  width: 95%;
+  border: 0.5px solid lightgrey;
+  padding: 10px;
+  margin-bottom:5px;
+  border-radius:5px;
+}
+
+.hero-form button{
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:grey;
+}
+
+.hero-form button:first-of-type{
+  background-color: #5898FB;
+  color:#fff;
+}
+
+.hero-form button img{
+  float: left;
+}
+.hero-form p{
+  word-spacing: normal;
+  font-family: 'Roboto', sans-serif;
+  padding:10px 0 30px 0;
+  font-size: 1.2rem;
+}
+
+.hero-form p a{
+  text-decoration: underline;
+  color:blue;
 }
