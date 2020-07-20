@@ -1,0 +1,29 @@
+/* debug */
+.debug .container{
+  height: 200px;
+  background-color: pink;
+}
+
+.debug [class*="col-"]{
+  border: 1px solid #000;
+  height: 100%;
+  padding: 10px;
+}
+
+.debug [class*="col-"] > .container{
+  height: 100%;
+}
+.debug [class*="col-"] > .container > [class*="col-"]{
+  background-color: lightcoral;
+  border: 1px solid #fff;
+}
+/* general */
+.color-white{
+  color:#fff;
+}
+
+.center{
+  text-align: center;
+  margin: auto;
+}
+/* style */
