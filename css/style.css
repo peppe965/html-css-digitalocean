@@ -143,10 +143,13 @@ nav{
 }
 
 .hero-form button:first-of-type{
-  background-color: #5898FB;
+  background-color: #005DFF;
   color:#fff;
 }
+.hero-form button:first-of-type:hover{
+  background-color: #5898FB;
 
+}
 .hero-form button img{
   float: left;
 }
@@ -161,3 +164,34 @@ nav{
   text-decoration: underline;
   color:blue;
 }
+/* /form */
+/* /hero */
+/* partner */
+.partner{
+  background-color: #F3F5F9;
+  /* vertical-align: middle; */
+  padding: 30px 0;
+}
+
+.partner li{
+  display: inline-block;
+}
+
+.partner p{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width:768px){
+  .partner li{
+    width: calc(100% / 2 - 30px);
+  }
+
+  .partner ul{
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width:768px){
+  .partner li{
+    width: calc(100% / 6 - 30px)
+  }
