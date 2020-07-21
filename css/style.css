@@ -54,7 +54,12 @@ a:hover{
   margin-left:2px;
 }
 .header-top{
-  line-height: 70px
+  line-height: 70px;
+  position: fixed;
+  top:0;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
 }
 .header-top img{
   margin-left:-15px;
@@ -88,6 +93,7 @@ nav{
   background-image: url(../img/bg-home.svg);
   background-repeat: no-repeat;
   width: 100%;
+  margin-top:70px;
   background-size: cover;
   /* height: 500px; */
   padding: 50px 0;
@@ -195,3 +201,50 @@ nav{
   .partner li{
     width: calc(100% / 6 - 30px)
   }
+}
+/* /partner */
+/* deploy */
+.deploy-ul li{
+  list-style: none;
+  border-left: 2px solid grey;
+  padding-left: 10px;
+  line-height: 3;
+}
+
+.deploy-ul li a{
+  color:grey;
+}
+
+.deploy-ul li:hover{
+  border-color:#0065FF;
+}
+
+.deploy-ul li a:hover{
+  color:#031B4E;
+}
+
+.deploy-ul{
+  margin-left: -30px;
+  margin-bottom:30px;
+}
+
+.deploy-title{
+  margin: 30px 0;
+}
+
+.deploy-title h2{
+  font-size: 28px;
+}
+
+.deploy-title p{
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.deploy p{
+  font-family: 'Roboto', sans-serif;
+}
+
+.deply div .text-left{
+  margin-left:30px;
+}
