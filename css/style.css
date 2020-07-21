@@ -23,9 +23,7 @@
 .color-white{
   color:#fff;
 }
-.color-white{
-  color:#fff;
-}
+
 .color-grey{
   color:#5b6987;
 }
@@ -49,6 +47,15 @@ a:hover{
 
 .bg_grey{
   background-color: #F3F5F9;
+}
+
+.after_link::after{
+  content: '\f054';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 0px 0px 10px;
+    text-decoration:none;
 }
 /* WARNING:  */
 /* style */
@@ -364,14 +371,6 @@ nav{
   color:#0065FF;
 }
 
-.features a::after{
-  content: '\f054';
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    margin:0px 0px 0px 10px;
-    text-decoration:none;
-}
 /* /features */
 /* service your customer */
 .service_customer{
@@ -413,14 +412,6 @@ background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%)
   float: right;
   color:#52D6D3;
 }
-.service_customer a::after{
-  content: '\f054';
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    margin:0px 0px 0px 10px;
-    text-decoration:none;
-}
 
 @media screen and (max-width:992px){
   .service_customer li{
@@ -431,12 +422,78 @@ background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%)
     border-bottom:1px solid #fff;
   }
 }
-
-
-
-
-
-
-
-
 /* /service your customer */
+/* development teams */
+.developmemt_teams h2{
+  margin: 50px 0;
+  font-size: 28px;
+}
+
+.rockerbox{
+  background-color: #fff;
+  padding-top: 50px;
+  margin-bottom:30px;
+  position: relative;
+}
+
+.rockerbox img{
+  margin-bottom:20px;
+  width: 90%;
+}
+
+.rockerbox>div{
+  padding: 20px 0;
+}
+.rockerbox span{
+  display: inline-block;
+}
+.rockerbox>div span:first-child{
+  font-weight: bold;
+}
+
+.rockerbox>div span:last-of-type{
+  margin-bottom:20px;
+}
+
+.rockerbox a{
+  color:#0065FF;
+}
+
+.rockerbox [class*="fa-chevron"]{
+  position: absolute;
+  top:40%;
+  font-size: 30px;
+}
+
+.rockerbox .fa-chevron-left{
+  left:-20%;
+}
+.rockerbox .fa-chevron-right{
+  right:-20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /development teams */
