@@ -33,6 +33,9 @@ body{
   font-family: 'Lato', sans-serif;
   word-spacing: 5px;
 }
+.font_roboto{
+  font-family: 'Roboto', sans-serif;
+}
 .center{
   text-align: center;
   margin: auto;
@@ -244,6 +247,12 @@ nav{
 
 .deploy-title h2{
   font-size: 28px;
+  font-weight: bold;
+}
+
+.deploy h5{
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .deploy-title p{
@@ -252,7 +261,6 @@ nav{
 }
 
 .deploy p{
-  font-family: 'Roboto', sans-serif;
   color:#5b6987;
 }
 
@@ -282,11 +290,11 @@ nav{
   font-size: 28px;
   margin-top:50px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .designed_developer p{
   color:#5b6987;
-  font-family: 'Roboto', sans-serif;
   /* letter-spacing: normal; */
   font-size: 20px;
   margin-bottom:50px;
@@ -332,5 +340,42 @@ nav{
 .designed_developer .fa-chevron-right{
   right:20%
 }
-
 /* /developer */
+/* features */
+.features{
+  margin-bottom:50px;  
+}
+
+.features h2{
+  margin-top:50px;
+  margin-bottom:30px;
+}
+
+.features h5{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.features p{
+  font-size: 14px;
+}
+
+.features a{
+  color:#0065FF;
+}
+
+.features a::after{
+  content: '\f054';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 0px 0px 10px;
+    text-decoration:none;
+}
+
+
+
+
+
+
+/* /features */
