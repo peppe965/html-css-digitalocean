@@ -471,29 +471,41 @@ background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%)
 .rockerbox .fa-chevron-right{
   right:-20%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* /development teams */
+/* get started */
+.get_started{
+  background: rgb(20,63,158);
+  background: linear-gradient(90deg, rgba(20,63,158,1) 41%, rgba(17,72,179,1) 47%);
+  padding: 40px 0;
+}
+
+.get_started h2{
+  margin-bottom:30px
+}
+
+.btn-started{
+  background-color: #fff;
+  color:#0065FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /get started */
