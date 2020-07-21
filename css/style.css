@@ -343,7 +343,7 @@ nav{
 /* /developer */
 /* features */
 .features{
-  margin-bottom:50px;  
+  margin-bottom:50px;
 }
 
 .features h2{
@@ -372,10 +372,62 @@ nav{
     margin:0px 0px 0px 10px;
     text-decoration:none;
 }
-
-
-
-
-
-
 /* /features */
+/* service your customer */
+.service_customer{
+  background: rgb(22,61,155);
+background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%);
+}
+
+.service_customer h2{
+  margin-top:80px;
+  margin-bottom: 20px;
+}
+
+.service_customer ul{
+  margin-bottom:50px;
+}
+
+.service_customer li{
+  display: inline-block;
+  width: calc(100% / 2 - 45px);
+  text-transform: capitalize;
+  margin-right:30px;
+  text-align: left;
+  padding: 10px 0;
+  border-bottom:1px solid #fff;
+}
+
+.service_customer li:nth-of-type(11),
+.service_customer li:nth-of-type(12){
+  border:none;
+}
+
+
+.service_customer span{
+  float: left;
+  text-transform: uppercase;
+  margin-right:50px;
+}
+.service_customer a{
+  float: right;
+  color:#52D6D3;
+}
+.service_customer a::after{
+  content: '\f054';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 0px 0px 10px;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+/* /service your customer */
