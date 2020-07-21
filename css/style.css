@@ -104,6 +104,9 @@ nav{
 /* /header-top */
 /* hero */
 .hero{
+  /* WARNING:  */
+  /* invertire l'ordine in base allo sfondo che si vuole */
+  background-image: url(../img/bg_home.jpg);
   background-image: url(../img/bg-home.svg);
   background-repeat: no-repeat;
   width: 100%;
@@ -172,6 +175,7 @@ nav{
 }
 .hero-form button img{
   float: left;
+  width: 20px;
 }
 .hero-form p{
   word-spacing: normal;
@@ -534,22 +538,94 @@ footer li:first-child{
   color: inherit;
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* /footer */
+/* little shark */
+.little_shark{
+  position: relative;
+}
+
+.little_shark img{
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  border-radius: 7px;
+}
+
+.little_shark-text{
+  display: none;
+  position: fixed;
+  bottom:20px;
+  right:100px;
+  background-color: #fff;
+  height: 60px;
+  width: 300px;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.little_shark-text p{
+  position: relative;
+  top:50%;
+  transform: translate(0, -50%);
+}
+
+.little_shark-text .triangle{
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  position: absolute;
+  top:50%;
+  right:-7px;
+}
+
+.little_shark .notification{
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  z-index: 1;
+  position: fixed;
+  bottom:60px;
+  right:10px;
+}
+
+.notification_number{
+  /* line-height: 30px; */
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: red;
+  position: absolute;
+  bottom:5px;
+  right:5px;
+}
+
+.little_shark:hover .little_shark-text{
+  display: block;
+}
+
+@media screen and (max-width:992px){
+  .little_shark img{
+    left:20px;
+  }
+
+
+  .little_shark .notification{
+    left:60px;
+  }
+
+  .little_shark-text{
+    left:100px;
+  }
+
+  .little_shark-text .triangle{
+    left:-7px;
+  }
+}
+
+
+
+
+/* /little shark */
