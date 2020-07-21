@@ -394,7 +394,7 @@ background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%)
   text-transform: capitalize;
   margin-right:30px;
   text-align: left;
-  padding: 10px 0;
+  padding: 10px;
   border-bottom:1px solid #fff;
 }
 
@@ -422,6 +422,15 @@ background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%)
     text-decoration:none;
 }
 
+@media screen and (max-width:992px){
+  .service_customer li{
+    width:100%;
+  }
+
+  .service_customer li:nth-of-type(11){
+    border-bottom:1px solid #fff;
+  }
+}
 
 
 
