@@ -391,7 +391,7 @@ background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%)
   display: inline-block;
   width: calc(100% / 2 - 45px);
   text-transform: capitalize;
-  margin-right:30px;
+  /* margin-right:30px; */
   text-align: left;
   padding: 10px;
   border-bottom:1px solid #fff;
@@ -487,25 +487,69 @@ background: linear-gradient(90deg, rgba(22,61,155,1) 41%, rgba(14,77,189,1) 47%)
   background-color: #fff;
   color:#0065FF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* /get started */
+/* footer */
+footer{
+  background-color: #031C4E;
+  padding: 50px 0;
+}
+
+footer ul{
+  margin-left: -40px;
+  margin-top:20px;
+}
+
+footer li{
+  list-style: none;
+  text-transform: capitalize;
+  padding: 3px 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+footer li:hover{
+  color:#9AA2B4;
+}
+
+footer li:first-child{
+  color:#fff;
+  font-size: 14px;
+}
+
+.copyright p{
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom:3px;
+}
+
+.copyright li{
+  display: inline-block;
+  font-size: 20px;
+  margin-top:-20px;
+}
+
+.copyright li:first-child{
+  color: inherit;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /footer */
