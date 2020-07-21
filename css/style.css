@@ -43,6 +43,10 @@ body{
 a:hover{
   text-decoration: none;
 }
+
+.bg_grey{
+  background-color: #F3F5F9;
+}
 /* WARNING:  */
 /* style */
 /* header-top */
@@ -174,7 +178,6 @@ nav{
 /* /hero */
 /* partner */
 .partner{
-  background-color: #F3F5F9;
   /* vertical-align: middle; */
   padding: 30px 0;
 }
@@ -188,6 +191,9 @@ nav{
   padding-bottom: 20px;
 }
 
+.partner img{
+  width: 100%;
+}
 @media screen and (max-width:768px){
   .partner li{
     width: calc(100% / 2 - 30px);
@@ -195,6 +201,9 @@ nav{
 
   .partner ul{
     padding: 0 20px;
+  }
+  .partner img{
+    width: 80%;
   }
 }
 @media screen and (min-width:768px){
@@ -205,6 +214,7 @@ nav{
 /* /partner */
 /* deploy */
 .deploy-ul li{
+  font-size: 16px;
   list-style: none;
   border-left: 2px solid grey;
   padding-left: 10px;
@@ -243,8 +253,84 @@ nav{
 
 .deploy p{
   font-family: 'Roboto', sans-serif;
+  color:#5b6987;
 }
 
 .deply div .text-left{
   margin-left:30px;
 }
+
+/* @media screen and (max-width:768px){
+  .deploy-title h2{
+    font-size: 36px;
+  }
+  .deploy h5{
+    font-size: 28px;
+  }
+
+  .deploy p{
+    font-size: 18px
+  }
+} */
+/* /deploy */
+/* developer */
+.designed_developer{
+  margin-top:30px;
+  position: relative;
+}
+.designed_developer h2{
+  font-size: 28px;
+  margin-top:50px;
+  margin-bottom: 20px;
+}
+
+.designed_developer p{
+  color:#5b6987;
+  font-family: 'Roboto', sans-serif;
+  /* letter-spacing: normal; */
+  font-size: 20px;
+  margin-bottom:50px;
+}
+.designed_developer p:last-of-type{
+  font-size: 14px;
+  margin-top:20px;
+  margin-bottom: 10px;
+  color:inherit;
+  font-weight: 600;
+}
+
+.designed_developer img{
+  width: 60%;
+}
+
+.points{
+  display: inline-block;
+  border:1px solid #0065FF;
+  padding: 5px;
+  border-radius: 6px;
+  margin-bottom:50px;
+}
+.points:first-of-type{
+  background-color: #0065ff;
+}
+@media screen and (max-width:768px){
+  .designed_developer img{
+    width: 30%;
+  }
+}
+
+.designed_developer [class*="fa-chevron"]{
+  position: absolute;
+  top:60%;
+  font-size: 30px;
+}
+
+.designed_developer .fa-chevron-left{
+  left:20%
+}
+
+.designed_developer .fa-chevron-right{
+  right:20%
+}
+
+/* /developer */
